@@ -15,7 +15,7 @@ body {
   cursor: pointer;
   position: relative;
   margin: 1rem auto;
-
+  text-decoration: none;
 }
 
 .movie-director {
@@ -71,4 +71,9 @@ body {
 .home-button {
   padding: 5px 10px;
   background-color: lightskyblue;
+}
+
+a {
+  color: unset;
+  text-decoration: unset;
 }
